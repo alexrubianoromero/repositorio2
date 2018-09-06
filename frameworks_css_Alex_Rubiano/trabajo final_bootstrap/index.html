@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name='viewport' content='width=device-width initial-scale=1'>
+
+<meta name='mobile-web-app-capable' content='yes'>
+<link rel='stylesheet' href='css/bootstrap.min.css'>
+<script src='js/bootstrap.min.js'></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<style>
+#principal{
+    position:absolute;
+	width: 100%;
+	height:500px;
+	border:1px solid red;
+}
+
+#areatexto{
+	width: 80%;
+	display: inline;
+}
+#persona{
+	display: inline;
+	margin-bottom:40px;
+}
+#borde123{
+	/*border:1px solid black;*/
+}
+#posicion_redes{
+	position:relative;
+	top : 30%;
+	left: 10%;
+	width: 100px;
+	height: 100px;
+}
+#bordes_redondos {
+	border-radius: 10px;
+}
+</style>
+</head>
+<body>
+<div class = "container">
+	<header>
+	<div class="row position-relative-md" id = "borde123" >
+			<div class="col-md-3 col-xs-12 text-center ">
+				<img src="img/musica.png" alt="logo de mi musica" class="logo">
+			</div>
+
+			<div class="col-md-2 col-md-offset-7 text-center col-xs-12 redes-sociales position-absolute-md"  
+			id = " borde123 ">
+				<div id="relleno"></div>
+				<img src ="img/fb-social.png"	alt="fb-icono" class="social " >
+				<img src ="img/tw-social.png"	alt="fw-icono" class="social">
+				<img src ="img/inst-social.png"	alt="inst-icono" class="social">
+			</div>	
+	</div>	
+	</header>
+	<!--barra de navegacion-->
+
+
+<div class="row">
+	<nav class="navbar navbar-default " >
+	<ul class="nav navbar-nav text-center row" style="width: 100%;" >
+	<li class="col-md-2 col-xs-12" class="activo"><a href="#" >Inicio </a></li>
+	<li class="col-md-2 col-xs-12"><a href="#" >Mi musica </a></li>
+	<li class="col-md-2 col-xs-12"><a href="#" >Canciones</a></li>
+	<li class="col-md-2 col-xs-12"><a href="#" >Albunes</a></li>
+	<li class="col-md-2 col-xs-12"><a href="#" >Top10</a></li>
+	<li class="col-md-2 col-xs-12"><a href="#" >Mas_Escuchados</a></li>
+	</ul>
+	</nav>
+</div>
+
+<!--aqui comienza el codigo para cuadrar lo que esta despues del menu-->
+ <div class="row" id="borde123">
+    <div class="col-md-9"  id="borde123">
+       	    <div  class="row" >
+
+       	    	<div class="col-md-4 col-md-push-8 "  id="borde123">
+	      			<img src="img/alfaville.jpg" width="250px" height="200px" class="img-fluid">
+	      		</div>	
+		        <div class="col-md-8 col-md-pull-4 "  id="borde123">
+	      			<p>
+	      				<h3>ALPHAVILLE</h3>
+	      			En 1982, el cantante Marian Gold y el teclista Bernhard Lloyd formaban parte de un proyecto musical llamado Nelson Community, allí formaron una banda llamada Chinchilla Green que no prosperó. Ese mismo año, Lloyd formó una banda con Frank Mertens, otro teclista, entonces ellos llamaron a Gold para que fuera el cantante, de esta manera nació la banda Forever Young, que más tarde sería rebautizada como Alphaville.
+	      			</p>
+	      		</div>	    
+       	   	</div>
+
+       	 <div class="col-md-12"  id="borde123">
+       	 	   <img src="img/icono_persona.jpg"   id="persona">
+     				      <textarea  id="areatexto" class="form-control" rows="2"  >
+     				      </textarea>
+       	 </div> 
+
+       	
+       	<div class="row" id="borde123">
+       		 <div class="col-md-4"  id="borde123">
+       			 <img src="img/rem.jpg" width="200px" height="250px" class="img-fluid">
+
+       		</div>	
+
+       		 <div class="col-md-8"  id="borde123">
+	       		   <p>
+	      			<h3>REM</h3>
+	      			R.E.M. fue una banda de rock alternativo estadounidense formada en Athens, Georgia, en 1980 por el cantante Michael Stipe, el guitarrista Peter Buck, el bajista Mike Mills y el baterista Bill Berry. De las primeras bandas pioneras del rock alternativo, R.E.M. fue fundamental en la creación y desarrollo del género de rock alternativo. Allmusic declaró: "R.E.M. marcó el punto en el que el post-punk se convirtió en rock alternativo". A principios de la década de 1980, el estilo musical de R.E.M. contrastaba con los géneros post-punk y new wave que la habían precedido.
+	      			</p>
+       		</div>
+       	</div> <!--  final de la fila del nuevo texto e imagen -->
+       	<div class="col-md-12"  id="borde123">
+       	 	   <img src="img/icono_persona.jpg"   id="persona">
+     				      <textarea  id="areatexto" class="form-control" rows="2"  ></textarea>
+       	 </div> 
+       
+
+
+
+    </div> <!--  este es el final de la columna grande de la derecha  -->
+
+
+<!--  la columna de la derecha   -->
+    <div class="col-md-3" id="borde123" >
+    			<div class="row" id="borde123">
+    					   <div class="input-group">
+						  <span class="input-group-addon" id="basic-addon1"><i class="fas fa-search"  id="bordes_redondos"></i></span>
+						  <input id="bordes_redondos" type="text" class="form-control" placeholder="Buscar" aria-describedby="basic-addon1">
+						</div>
+    			</div>	
+
+    			<div class="row" id="borde123">
+         	            <ul class="list-group" id="borde123">
+						  <li  class="list-group-item ">Top 100</li>
+						  <li class="list-group-item " >Cantantes</li>
+						  <li class="list-group-item ">Compositores</li>
+						  <li class="list-group-item ">Paises</li>
+						  <li class="list-group-item ">Bandas</li>
+						  <li class="list-group-item ">Historias</li>
+						  <li class="list-group-item ">Los 80s</li>
+						  <li class="list-group-item ">Nuevas Bandas</li>
+						  <li class="list-group-item ">Hard Rock</li>
+						  <li class="list-group-item ">Alphaville</li>
+						  <li class="list-group-item ">Rem</li>
+						  <li class="list-group-item ">Ingles</li>
+						  <li class="list-group-item ">Otros Idiomas</li>
+						  <li class="list-group-item ">Remix</li>
+
+
+			    		</ul> 
+			    </div>			
+
+    </div>	
+<!--  final de la columna de la derecha --> 
+
+ </div> <!-- final div class row-->
+ 
+
+
+</div> <!-- final de container-->
+
+
+
+
+</div>
+</body>
+</html>
+
+
